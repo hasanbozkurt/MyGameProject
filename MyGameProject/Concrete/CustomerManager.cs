@@ -26,7 +26,7 @@ namespace MyGameProject.Concrete
             }
             else
             {
-                throw new Exception("User validation has failed, you can not sign up.");
+                throw new Exception("Kullanıcı doğrulaması başarısız oldu, kaydolamazsınız");
             }
         }
 
