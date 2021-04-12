@@ -11,16 +11,16 @@ namespace MyGameProject
             Customer customer = new Customer
             {
                 CustomerID = 1,
-                FirstName = "Tarık",
-                LastName = "Göl",
-                IdentityNumber = "12345",
-                DateOfBirth = new DateTime(1997, 9, 8)
+                FirstName = "Hasan",
+                LastName = "Bozkurt",
+                IdentityNumber = "2728562645",
+                DateOfBirth = new DateTime(1996, 9, 5)
             };
 
             SpecialOffer specialOffer = new SpecialOffer()
             {
                 SpecialOfferID = 1,
-                SpecialOfferType = "25% Discount",
+                SpecialOfferType = "25% İndirimle",
                 SpecialOfferActive = true
             };
 
